@@ -10,3 +10,4 @@
 + [3.00](https://github.com/georgedem975/physics/tree/master/labs/lab-3.00)
 + [3.10](https://github.com/georgedem975/physics/tree/master/labs/lab-3.10)
 + [3.11](https://github.com/georgedem975/physics/tree/master/labs/lab-3.11)
++ [5.02](https://github.com/georgedem975/physics/tree/master/labs/lab-5.02)
