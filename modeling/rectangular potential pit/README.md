@@ -57,7 +57,7 @@ $C = \sqrt{2m(E_n-U)}$, где $m$ - масса частицы.
 
 График:
 
-![1]()
+![1](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/assets/Figure_1.png)
 
 Теперь найдем собственные функции и собственные значения для осцилляторного
 потенциала $V(x) = {{1}\over{2}}m \omega^2 x^2$.
@@ -84,15 +84,21 @@ E_4 = 9.507140451925215
 ```
 
 График:
-![2]()
+![2](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/assets/Figure_2.png)
 
 
 Теперь построим графики собственных функций
 
-![3]()
+![3](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/assets/Figure_3.png)
 
 Данные функции обращаются в ноль у стенок и перигородки для обеспечения непрерывности и нечетности.
 
 Для четных функций, собственные значения можно получить только численным путем.
 
-![4]()
+![4](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/assets/Figure_4.png)
+
+Ссылки на скрипты:
++ [script_one](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/scripts/script_one.py)
++ [script_two](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/scripts/script_two.py)
++ [script_three](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/scripts/script_three.py)
++ [script_four](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/scripts/script_four.py)

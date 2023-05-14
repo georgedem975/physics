@@ -5,6 +5,7 @@
 ### Моделирование
 + [двойной маятник](https://github.com/georgedem975/physics/tree/master/modeling/double%20pendulum)
 + [гомография](https://github.com/georgedem975/physics/tree/master/modeling/homography)
++ [потенциальная яма](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/README.md)
 
 ### Лабораторные
 + [3.00](https://github.com/georgedem975/physics/tree/master/labs/lab-3.00)
