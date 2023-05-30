@@ -64,6 +64,8 @@ $C = \sqrt{2m(E_n-U)}$, где $m$ - масса частицы.
 
 ![5](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/assets/Figure_5.png)
 
+Из сделанных выше экспериментов мы знаем, что у нас есть четные и нечетные собственные функции.
+
 Теперь построим график первых трех нечетных собственных функций для случая когда в точке $x = 0$ вводится перегородка.
 
 ![3](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/assets/Figure_3.png)
@@ -73,6 +75,10 @@ $C = \sqrt{2m(E_n-U)}$, где $m$ - масса частицы.
 Для четных функций, собственные значения можно получить только численным путем.
 
 ![4](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/assets/Figure_4.png)
+
+Перегородка создает барьер, который может приводить к изменению распределения вероятности волновой функции. Некоторые энергетические уровни могут оказаться значительно смещенными по энергии из-за воздействия перегородки.
+
+Таким образом, бесконечно узкая и бесконечная полупроницаемая перегородка в точке x = 0 вносит существенные изменения в стационарные состояния системы, вызывая изменение энергетических уровней и форму собственных функций.
 
 Ссылки на скрипты:
 + [script_one](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/scripts/script_one.py)
