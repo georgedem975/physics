@@ -23,7 +23,10 @@ for i in range(len(om)):
 for j in range(n):
     b = kna[:, j]
     print(b)
-    plt.plot(b, drawstyle='steps-pre')
+    plt.plot(b, drawstyle='steps-pre', label='omega={}'.format(om[j]))
 
-plt.title('Eigenvalues for even solutions')
+plt.title('Значение уровней энергии в зависимости от прозрачности перегородки')
+plt.legend(bbox_to_anchor=(1, 1), loc='upper left', borderaxespad=0, title='коэф. прозрачности')
+plt.xlabel('энергетические уровни (n)')
+plt.ylabel('энергия частиц (эВ)')
 plt.show()

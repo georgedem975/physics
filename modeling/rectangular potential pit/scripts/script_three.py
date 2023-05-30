@@ -21,9 +21,10 @@ plt.plot(x, y3, label='n=3')
 plt.xlim(-1, 1)
 plt.ylim(-1.5, 1.5)
 
-plt.xlabel('x')
-plt.ylabel('u')
+plt.xlabel('X')
+plt.ylabel('U')
 plt.legend()
 plt.grid()
+plt.title('график первых трех нечетных собственных функций')
 
 plt.show()
