@@ -44,6 +44,8 @@ $C = \sqrt{2m(E_n-U)}$, где $m$ - масса частицы.
 
 ![1](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/assets/Figure_1.png)
 
+![6](https://github.com/georgedem975/physics/blob/master/modeling/rectangular%20potential%20pit/assets/Figure_6.png)
+
 Теперь найдем собственные функции и собственные значения для осцилляторного
 потенциала $V(x) = {{1}\over{2}}m \omega^2 x^2$.
 

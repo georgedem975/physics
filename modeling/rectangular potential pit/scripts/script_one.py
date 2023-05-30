@@ -19,17 +19,18 @@ def get_energy(func, E, count_levels_energy, U0, C, step):
     return E
 
 
-def psi(n, x):
-    return np.sqrt(2)*np.sin(n*np.pi*x)
+def psi(n, L, x):
+    return np.sqrt(2/L)*np.sin(n*np.pi*x/L)
 
 
-def psi_2(n, x):
-    return np.square(psi(n, x))
+def psi_2(n, L, x):
+    return np.square(psi(n, L, x))
 
 
 if __name__ == '__main__':
     U0 = 100
     a = 2
+    L = 1
 
     C = np.sqrt(2 * U0) * a
 
@@ -53,26 +54,22 @@ if __name__ == '__main__':
     plt.ylabel('эВ')
     plt.show()
 
+    # Построение потенциальной ямы
     x = np.linspace(-a*1.1, a*1.1, 100)
     potential = np.piecewise(x, [np.abs(x) <= a, np.abs(x) > a], [-U0, 0])
     plt.plot(x, potential, 'r-', label='Потенциальная яма')
 
     for i in range(count_levels_energy_plus):
         plt.hlines(E_1[1, i], -a, a, colors='b', linestyles='dashed')
-    for i in range(count_levels_energy_minus):
-        plt.hlines(E_2[1, i], -a, a, colors='g', linestyles='dashed')
 
     for i in range(len(E_1[1])):
-        psi_x = np.linspace(-a, a, 1000)
-        psi_y = psi(i, psi_x)
-        plt.plot(psi_x, psi_y+E_1[1, i], 'm-')
-
-    for i in range(len(E_2[1])):
-        psi_x = np.linspace(-a, a, 1000)
-        psi_y = psi_2(i, psi_x)
-        plt.plot(psi_x, psi_y+E_2[1, i], 'm-')
+        psi_x = np.linspace(0, 1, 1000)
+        psi_y = psi(i, L, psi_x)
+        plt.plot((psi_x - 0.5)*4, psi_y+E_1[1, i], 'm-')
 
     plt.ylim([-1.1 * U0, 0.1 * U0])
 
     plt.legend()
+    plt.ylabel('эВ')
+    plt.xlabel('X')
     plt.show()
