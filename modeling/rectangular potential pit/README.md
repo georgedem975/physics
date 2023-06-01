@@ -10,7 +10,7 @@
     -U \textrm{,} & |x| < a \textrm{,} \\
     0 \textrm{,} & |x| > a.
     \end{array}
-    \right. $$<tex>
+    \right.$$<tex>
 
 
 
