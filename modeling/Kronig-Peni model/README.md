@@ -61,3 +61,8 @@
 ![4](https://github.com/georgedem975/physics/blob/master/modeling/Kronig-Peni%20model/assets/Figure_4.png)
 
 В случае совершенно непрозрачных стенок потенциальной ямы $(P = \infty)$ разрешенные зоны выраждаются в дискретные энергетические уровни
+
+---
+
++ [script](https://github.com/georgedem975/physics/blob/master/modeling/Kronig-Peni%20model/scripts/first_script.py)
++ [дополнительная информация]()
