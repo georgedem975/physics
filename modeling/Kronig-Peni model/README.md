@@ -40,3 +40,5 @@
 
 где $m_n$ - эффективная масса электрона в кристале, $j$ - мнимая единица.
 
+![1](https://github.com/georgedem975/physics/blob/master/modeling/Kronig-Peni%20model/assets/Figure_1.png)
+
