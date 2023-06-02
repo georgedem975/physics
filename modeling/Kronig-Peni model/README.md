@@ -42,3 +42,12 @@
 
 ![1](https://github.com/georgedem975/physics/blob/master/modeling/Kronig-Peni%20model/assets/Figure_1.png)
 
+учитывая граничные условия и условия непрерывности волновой функции получаем:
+
+<tex>$$cos( \alpha a) \cdot ch(\beta b) + {{ \beta^2 - \alpha^2}\over{2 \alpha \beta}} \cdot \sin(\alpha a) \cdot sh(\beta b) = cos(\lambda)$$<tex>
+
+<tex>$$cos(\alpha a) + P {{sin(\alpha a)}\over{\alpha a}} = cos(\lambda) \ , $$<tex>
+
+где $P = {{mV_0ab}\over{\hbar^2}}$
+
+Данный параметр $P$ пропорционален площади потенциального барьера, он характеризует степень прозрачности барьера для электронов или степень связности электронов внутри ямы.
